@@ -1,0 +1,55 @@
+.hero-section {
+    margin-top: 50px;
+    background: black;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 70px  ;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section ul {
+    font-size: 1.2rem;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff0066;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+.hero-section .btn-outline-light {
+    padding: 12px 20px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.hero-section .text-primary {
+    color: #007bff !important;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* button css */
+.custom-button {
+    min-width: 170px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #0f010d; /* Darker blue on hover */
+    color: white;
+    border: white 1px solid;
+    
+}
